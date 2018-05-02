@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    >
+    <item
+
+        android:id="@+id/action_BJ"
+        android:background="#f1b8b8"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="主界面" />
+
+    <item
+        android:id="@+id/action_cxy"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="进制转换"
+        android:background="#f1b8b8"/>
+
+    <item
+        android:id="@+id/action_volume"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:background="#f1b8b8"
+        android:title="单位换算"/>
+    <item
+        android:id="@+id/action_sushu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:background="#f1b8b8"
+        android:title="素数判断"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:background="#f1b8b8"
+        android:title="这是帮助"/>
+
+
+
+
+</menu>
